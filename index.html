@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VeFramework Docs</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css">
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">VF</div>
+          <div class="meta">
+            <h1>VeFramework</h1>
+            <span class="version">Docs</span>
+          </div>
+        </div>
+        <nav id="nav"></nav>
+        <footer class="sidebar-footer">
+          <a href="#/docs/overview" class="home-link">Overview</a>
+          <button id="themeToggle" title="Toggle theme">🌙</button>
+        </footer>
+      </aside>
+      <main class="content">
+        <article id="content" class="doc"></article>
+        <footer class="footer">
+          <span>© <span id="year"></span> VeFramework</span>
+          <span class="sep">·</span>
+          <a href="#/docs/roadmap">Roadmap</a>
+        </footer>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/common.min.js"></script>
+    <script>window.hljs && hljs.configure({ignoreUnescapedHTML: true});</script>
+    <script src="main.js"></script>
+  </body>
+  </html>
+
+
