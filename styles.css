@@ -66,6 +66,33 @@ nav#nav a.active, nav#nav a:hover { background: rgba(79, 140, 255, 0.15); color:
 .footer { color: var(--muted); display: flex; gap: 10px; align-items: center; justify-content: center; padding: 24px 0 16px; }
 .footer .sep { opacity: .6; }
 
+/* Footer controls */
+.footer-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#languageSelector {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#languageSelector:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+#languageSelector option {
+  background: var(--bg);
+  color: var(--text);
+}
+
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
   .sidebar { position: static; height: auto; }

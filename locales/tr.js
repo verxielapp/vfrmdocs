@@ -1,0 +1,77 @@
+export default {
+  // Navigation
+  overview: "Genel Bakış",
+  gettingStarted: "Başlangıç",
+  installation: "Kurulum",
+  cli: "CLI",
+  configuration: "Yapılandırma",
+  projectStructure: "Proje Yapısı",
+  modules: "Modüller",
+  frameworkApi: "Framework API",
+  templates: "Şablonlar",
+  examples: "Örnekler",
+  troubleshooting: "Sorun Giderme",
+  faq: "SSS",
+  roadmap: "Yol Haritası",
+  
+  // Common
+  search: "Ara",
+  language: "Dil",
+  theme: "Tema",
+  darkMode: "Karanlık Mod",
+  lightMode: "Aydınlık Mod",
+  loading: "Yükleniyor...",
+  error: "Hata",
+  success: "Başarılı",
+  close: "Kapat",
+  back: "Geri",
+  next: "İleri",
+  previous: "Önceki",
+  
+  // Content
+  quickStart: "Hızlı Başlangıç",
+  features: "Özellikler",
+  requirements: "Gereksinimler",
+  download: "İndir",
+  documentation: "Dokümantasyon",
+  examples: "Örnekler",
+  api: "API",
+  guides: "Rehberler",
+  tutorials: "Öğreticiler",
+  community: "Topluluk",
+  support: "Destek",
+  contribute: "Katkıda Bulun",
+  
+  // Framework specific
+  veFramework: "VeFramework",
+  description: "Modern web uygulamaları için güçlü ve esnek framework",
+  version: "Sürüm",
+  latest: "En Son",
+  stable: "Kararlı",
+  beta: "Beta",
+  alpha: "Alpha",
+  
+  // Actions
+  install: "Kur",
+  uninstall: "Kaldır",
+  update: "Güncelle",
+  configure: "Yapılandır",
+  deploy: "Dağıt",
+  build: "Derle",
+  test: "Test Et",
+  run: "Çalıştır",
+  stop: "Durdur",
+  restart: "Yeniden Başlat",
+  
+  // Status
+  active: "Aktif",
+  inactive: "Pasif",
+  enabled: "Etkin",
+  disabled: "Devre Dışı",
+  running: "Çalışıyor",
+  stopped: "Durduruldu",
+  error: "Hata",
+  warning: "Uyarı",
+  info: "Bilgi",
+  debug: "Hata Ayıkla"
+};

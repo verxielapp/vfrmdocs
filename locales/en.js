@@ -1,0 +1,77 @@
+export default {
+  // Navigation
+  overview: "Overview",
+  gettingStarted: "Getting Started",
+  installation: "Installation",
+  cli: "CLI",
+  configuration: "Configuration",
+  projectStructure: "Project Structure",
+  modules: "Modules",
+  frameworkApi: "Framework API",
+  templates: "Templates",
+  examples: "Examples",
+  troubleshooting: "Troubleshooting",
+  faq: "FAQ",
+  roadmap: "Roadmap",
+  
+  // Common
+  search: "Search",
+  language: "Language",
+  theme: "Theme",
+  darkMode: "Dark Mode",
+  lightMode: "Light Mode",
+  loading: "Loading...",
+  error: "Error",
+  success: "Success",
+  close: "Close",
+  back: "Back",
+  next: "Next",
+  previous: "Previous",
+  
+  // Content
+  quickStart: "Quick Start",
+  features: "Features",
+  requirements: "Requirements",
+  download: "Download",
+  documentation: "Documentation",
+  examples: "Examples",
+  api: "API",
+  guides: "Guides",
+  tutorials: "Tutorials",
+  community: "Community",
+  support: "Support",
+  contribute: "Contribute",
+  
+  // Framework specific
+  veFramework: "VeFramework",
+  description: "Powerful and flexible framework for modern web applications",
+  version: "Version",
+  latest: "Latest",
+  stable: "Stable",
+  beta: "Beta",
+  alpha: "Alpha",
+  
+  // Actions
+  install: "Install",
+  uninstall: "Uninstall",
+  update: "Update",
+  configure: "Configure",
+  deploy: "Deploy",
+  build: "Build",
+  test: "Test",
+  run: "Run",
+  stop: "Stop",
+  restart: "Restart",
+  
+  // Status
+  active: "Active",
+  inactive: "Inactive",
+  enabled: "Enabled",
+  disabled: "Disabled",
+  running: "Running",
+  stopped: "Stopped",
+  error: "Error",
+  warning: "Warning",
+  info: "Info",
+  debug: "Debug"
+};
